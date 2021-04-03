@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Gruppo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+  color: #292929;
+  font-family: "Gruppo", cursive;
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+/* clock container */
+.clock-container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  row-gap: 4rem;
+  height: 100vh;
+}
+
+/* responsive */
+@media (min-width: 768px) {
+  body {
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  body {
+    font-size: 20rem;
+  }
+}
